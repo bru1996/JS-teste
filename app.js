@@ -17,7 +17,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/quotes', quotesRouter);
 
-
 var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
@@ -36,6 +35,5 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/quotes', quotesRouter);
-
 
 module.exports = app;
